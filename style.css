@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background-color: #091157;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    color: rgb(202, 230, 24);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 2px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+.tile:hover {
+    background-color: rgb(72, 66, 107);
+}
+
+.playerX {
+    color: #d48943;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.playerO {
+    color: #47d476;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-left: 0.3em;
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #FF3860;
+}
